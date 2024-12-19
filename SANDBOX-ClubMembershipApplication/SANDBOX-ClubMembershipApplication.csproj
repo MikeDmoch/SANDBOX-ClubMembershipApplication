@@ -156,8 +156,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\ClubMembershipDbContext.cs" />
+    <Compile Include="FieldValidatorAPI\FileName.cs" />
     <Compile Include="FieldValidators\FieldConstants.cs" />
     <Compile Include="FieldValidators\IFieldValidator.cs" />
+    <Compile Include="FieldValidators\UserRegistrationValidator.cs" />
     <Compile Include="Migrations\20241217093947_FirstCreate.cs" />
     <Compile Include="Migrations\20241217093947_FirstCreate.Designer.cs">
       <DependentUpon>20241217093947_FirstCreate.cs</DependentUpon>
@@ -170,6 +172,12 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FieldValidatorAPI2\FieldValidatorAPI2.csproj">
+      <Project>{57b9291a-fd28-443d-a782-c7a3fda4309f}</Project>
+      <Name>FieldValidatorAPI2</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.2\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets" Condition="Exists('..\packages\SQLitePCLRaw.lib.e_sqlite3.2.0.2\build\net461\SQLitePCLRaw.lib.e_sqlite3.targets')" />

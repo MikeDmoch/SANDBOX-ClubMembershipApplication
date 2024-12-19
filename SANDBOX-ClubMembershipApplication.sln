@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.12.35514.174 d17.12
+VisualStudioVersion = 17.12.35514.174
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SANDBOX-ClubMembershipApplication", "SANDBOX-ClubMembershipApplication\SANDBOX-ClubMembershipApplication.csproj", "{86C36EA7-D117-4064-97A4-5CFD7E63DAFC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldValidatorAPI", "FieldValidatorAPI\FieldValidatorAPI.csproj", "{92C7BB8D-D16A-497D-843B-2A8B4C45411B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FieldValidatorAPI2", "FieldValidatorAPI2\FieldValidatorAPI2.csproj", "{57B9291A-FD28-443D-A782-C7A3FDA4309F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{86C36EA7-D117-4064-97A4-5CFD7E63DAFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86C36EA7-D117-4064-97A4-5CFD7E63DAFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86C36EA7-D117-4064-97A4-5CFD7E63DAFC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{92C7BB8D-D16A-497D-843B-2A8B4C45411B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{92C7BB8D-D16A-497D-843B-2A8B4C45411B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{92C7BB8D-D16A-497D-843B-2A8B4C45411B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{92C7BB8D-D16A-497D-843B-2A8B4C45411B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B9291A-FD28-443D-A782-C7A3FDA4309F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B9291A-FD28-443D-A782-C7A3FDA4309F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B9291A-FD28-443D-A782-C7A3FDA4309F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B9291A-FD28-443D-A782-C7A3FDA4309F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
