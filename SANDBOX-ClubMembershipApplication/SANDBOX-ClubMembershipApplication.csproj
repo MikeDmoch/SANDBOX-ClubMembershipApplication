@@ -156,6 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Data\ClubMembershipDbContext.cs" />
+    <Compile Include="FieldValidators\IFieldValidator.cs" />
     <Compile Include="Migrations\20241217093947_FirstCreate.cs" />
     <Compile Include="Migrations\20241217093947_FirstCreate.Designer.cs">
       <DependentUpon>20241217093947_FirstCreate.cs</DependentUpon>

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FieldValidatorAPI
 {
-    internal class CommonRegularExpressionValidationPatterns
+    public static class CommonRegularExpressionValidationPatterns
     {
         public const string Email_Address_RegEx_Pattern = @"^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$";
 
