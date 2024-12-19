@@ -12,6 +12,5 @@ namespace SANDBOX_ClubMembershipApplication.FieldValidators
         void InitialiseValidatorDelegates();
         string[] FieldArray { get; }
         FieldValidatorDel ValidatorDel { get; }
-
     }
 }
