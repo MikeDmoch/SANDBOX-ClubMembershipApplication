@@ -57,7 +57,7 @@ namespace FieldValidatorAPI2
                 return _patternMatchValidDel;
             }
         }
-        public static CompareFieldsValidDel FielddCompareValidDel
+        public static CompareFieldsValidDel FieldCompareValidDel
         {
             get
             {

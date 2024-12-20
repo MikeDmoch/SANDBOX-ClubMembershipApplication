@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SANDBOX_ClubMembershipApplication.FieldValidatorAPI
+namespace SANDBOX_ClubMembershipApplication
 {
-    internal class FileName
+    internal class Program
     {
+        static void Main(string[] args)
+        {
+        }
     }
 }
